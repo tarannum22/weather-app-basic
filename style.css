@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.container h2 {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#message {
+  min-height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(182, 207, 255);
+}
+
+label {
+  display: block; /* Make labels appear on separate lines */
+  margin-bottom: 5px;
+}
